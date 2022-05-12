@@ -36,7 +36,6 @@
 *.db-wal
 *.opendb
 *.ipch
-*.sln
 *.vcxproj
 *.filters
 *.user
@@ -46,3 +45,4 @@
 *.log
 *.idb
 *.pdb
+*.enc
