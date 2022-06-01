@@ -2,6 +2,7 @@
 #include "exercise2.h"
 #include "exercise3.h"
 #include "exercise4.h"
+#include "exercise5.h"
 #include <iostream>
 
 int main()
@@ -16,6 +17,7 @@ int main()
 			"2: Vigenere Code, Frequency analysis of letters with Index of coincidence\n"
 			"3: Blum-Blum-Shub Generator\n"
 			"4: DES algorithm\n"
+			"5: RSA\n"
 			"7: Exit";
 		std::cout << "\n----------------------------\n";
 
@@ -34,6 +36,9 @@ int main()
 			break;
 		case 4:
 			exercise4();
+			break;
+		case 5:
+			exercise5();
 			break;
 		case 7:
 			exit = true;
