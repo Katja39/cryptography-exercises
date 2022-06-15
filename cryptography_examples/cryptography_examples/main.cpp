@@ -3,6 +3,7 @@
 #include "exercise3.h"
 #include "exercise4.h"
 #include "exercise5.h"
+#include "exercise6.h"
 #include <iostream>
 
 int main()
@@ -18,6 +19,7 @@ int main()
 			"3: Blum-Blum-Shub Generator\n"
 			"4: DES algorithm\n"
 			"5: RSA\n"
+			"6: "
 			"7: Exit";
 		std::cout << "\n----------------------------\n";
 
@@ -39,6 +41,9 @@ int main()
 			break;
 		case 5:
 			exercise5();
+			break;
+		case 6:
+			exercise6();
 			break;
 		case 7:
 			exit = true;
